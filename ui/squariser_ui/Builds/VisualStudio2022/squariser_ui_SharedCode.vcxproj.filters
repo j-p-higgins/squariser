@@ -583,6 +583,9 @@
     <ClCompile Include="..\..\Source\PluginEditor.cpp">
       <Filter>squariser_ui\Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RootComponent.cpp">
+      <Filter>squariser_ui</Filter>
+    </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
       <Filter>JUCE Modules\juce_audio_basics\buffers</Filter>
     </ClCompile>
@@ -2891,6 +2894,9 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\PluginEditor.h">
       <Filter>squariser_ui\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootComponent.h">
+      <Filter>squariser_ui</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h">
       <Filter>JUCE Modules\juce_audio_basics\audio_play_head</Filter>

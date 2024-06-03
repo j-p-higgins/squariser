@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="o6pXK5" name="squariser_ui" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="0" jucerFormatVersion="1">
   <MAINGROUP id="zKK7iw" name="squariser_ui">
     <GROUP id="{08478521-733A-18C0-0C5B-724C40DCEB48}" name="Source">
       <FILE id="NwnHQj" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -12,6 +12,9 @@
             file="Source/PluginEditor.cpp"/>
       <FILE id="R3MYBx" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
+    <FILE id="bVaeJt" name="RootComponent.cpp" compile="1" resource="0"
+          file="Source/RootComponent.cpp"/>
+    <FILE id="CF5LsV" name="RootComponent.h" compile="0" resource="0" file="Source/RootComponent.h"/>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
   <EXPORTFORMATS>
