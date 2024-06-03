@@ -4831,6 +4831,14 @@
 								}
 
 							}
+,
+							"cpp-export" : 							{
+								"cpp-code-export" : 								{
+									"export_name" : "rnbo_source.cpp",
+									"polyphony" : "disabled"
+								}
+
+							}
 
 						}
 
