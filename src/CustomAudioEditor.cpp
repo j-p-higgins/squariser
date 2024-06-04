@@ -13,6 +13,7 @@ CustomAudioEditor::CustomAudioEditor (RNBO::JuceAudioProcessor* const p, RNBO::C
     // addAndMakeVisible(_label);
     // setSize (_label.getWidth(), _label.getHeight());
 
+    _rootComponent.setAudioProcessor(p);
     addAndMakeVisible(_rootComponent);
     setSize(_rootComponent.getWidth(), _rootComponent.getHeight());
 }
@@ -29,5 +30,5 @@ void CustomAudioEditor::paint (Graphics& g)
 
 void CustomAudioEditor::audioProcessorParameterChanged (AudioProcessor*, int parameterIndex, float value)
 {
-    // Handle parameter changes here
+    _rootComponent.updateSliderForParam(parameterIndex, value);
 }
